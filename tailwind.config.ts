@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        lexend: ["var(--font-lexend)", "sans-serif"],
+        akshar: ["var(--font-akshar)", "sans-serif"],
+      },
     },
   },
   plugins: [],

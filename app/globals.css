@@ -1,21 +1,31 @@
+/* globals.css */
+
+/* Tailwind's base styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Custom Global Styles */
+html,
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lexend', sans-serif; /* Add your preferred font */
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7; /* You can set the background color here */
+  color: #333; /* You can set a default text color here */
+}
+
+/* Apply the same gradient to the navbar globally */
+.bg-gradient-navbar {
+  background: linear-gradient(to right, #6E67F4, #4D3EB3);
+}
+
+/* Customize placeholder styles globally */
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* If you want to customize the focus ring color globally */
+input:focus {
+  outline: 2px solid #6E67F4; /* Customize focus ring color */
 }
