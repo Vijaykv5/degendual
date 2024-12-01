@@ -11,10 +11,9 @@ export default function Home() {
 
       <main className="pl-24 pr-8 pt-20 font-lexend">
         <div className="max-w-[2000px]">
-          
-            <PriceChart />
-         
-          <AgentList/>
+          <PriceChart />
+
+          <AgentList />
         </div>
       </main>
     </div>

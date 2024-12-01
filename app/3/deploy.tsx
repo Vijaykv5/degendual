@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { FiUpload } from "react-icons/fi";
 
 export default function Deploy() {

@@ -1,6 +1,5 @@
 import Navbar from "@/components/layout/navbar";
 import Sidebar from "@/components/layout/sidebar";
-import AgentList from "@/components/agents/agent-list";
 import Deploy from "./deploy";
 
 export default function Home() {
