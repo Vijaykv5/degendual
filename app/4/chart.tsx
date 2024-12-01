@@ -128,18 +128,26 @@ export default function CryptoChart() {
             </p>
           </div>
         </div>
-        <div className="flex gap-8">
-          <div>
-            <h3 className="text-2xl font-mono">$234.00</h3>
-            <p className="text-gray-400 text-sm">Unrealized PnL</p>
-          </div>
-          <div>
-            <h3 className="text-2xl font-mono">$36.00</h3>
-            <p className="text-gray-400 text-sm">Total Balance</p>
-          </div>
-          <div>
-            <h3 className="text-2xl font-mono">--</h3>
-            <p className="text-gray-400 text-sm">Trading Volume</p>
+        <div className="flex justify-end w-full">
+          <div className="flex gap-4 w-[600px]">
+            <div className="bg-[#11141D] rounded-lg p-6 flex-1">
+              <div className="flex flex-col items-center text-center">
+                <h3 className="text-2xl font-mono mb-2">$234.00</h3>
+                <p className="text-gray-500 text-sm">Unrealized PnL</p>
+              </div>
+            </div>
+            <div className="bg-[#11141D] rounded-lg p-6 flex-1">
+              <div className="flex flex-col items-center text-center">
+                <h3 className="text-2xl font-mono mb-2">$36.00</h3>
+                <p className="text-gray-500 text-sm">Total Balance</p>
+              </div>
+            </div>
+            <div className="bg-[#11141D] rounded-lg p-6 flex-1">
+              <div className="flex flex-col items-center text-center">
+                <h3 className="text-2xl font-mono mb-2">--</h3>
+                <p className="text-gray-500 text-sm">Trading Volume</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
