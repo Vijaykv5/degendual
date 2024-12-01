@@ -34,7 +34,7 @@ export default function TokenCard({
       A token that embodies the cosmic and ethereal aesthetic of Spectra
     </p>
 
-      <div className=" text-xs text-[#94A3B8] o mt-auto bg-[#242230] -mx-4 -mb-4 p-3 rounded-b-lg flex justify-center">
+      <div className=" text-xs text-[#94A3B8]  mt-auto bg-[#242230] -mx-4 -mb-4 p-3 rounded-b-lg flex justify-center">
         Created by <span className="ml-1 font-semibold"> @argyle</span>
       </div>
     </div>

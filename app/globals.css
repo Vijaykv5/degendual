@@ -29,3 +29,14 @@ input::placeholder {
 input:focus {
   outline: 2px solid #6E67F4; /* Customize focus ring color */
 }
+
+:root {
+  --font-lexend: 'Lexend', sans-serif;
+  --font-akshar: 'Akshar', sans-serif;
+  --font-roboto: 'roboto', sans-serif;
+
+}
+
+body {
+  font-family: var(--font-lexend);
+}

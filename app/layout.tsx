@@ -1,11 +1,15 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Metadata } from "next";
+import { Lexend, Akshar, Roboto, Inter } from "next/font/google";
 import "./globals.css";
-import { Lexend, Akshar } from "next/font/google";
 
 const lexend = Lexend({ subsets: ["latin"], variable: "--font-lexend" });
 const akshar = Akshar({ subsets: ["latin"], variable: "--font-akshar" });
-
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-roboto",
+});
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" }); 
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,7 +22,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${lexend.variable} ${akshar.variable}`}>
+    <html
+      lang="en"
+      className={`${lexend.variable} ${akshar.variable} ${roboto.variable} ${inter.style.fontFamily}`}
+    >
       <body>{children}</body>
     </html>
   );
